@@ -32,9 +32,11 @@ vector<int> commonElements(vector<int> &a, vector<int> &b,
       k++;
     }
   }
+  // set is used to remove duplicates from the arra
   for (auto i : st)
   {
     ans.push_back(i);
   }
   return ans;
+  // Time complexity:O(n) & S.c.:O(n)
 }
